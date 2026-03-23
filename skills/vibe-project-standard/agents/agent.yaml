@@ -1,0 +1,7 @@
+---
+name: vibe-project-standard
+description: "Vibe Coding 项目规范化技能。指导从零构建生产级项目，包含 SDD/TDD 开发流程、CI/CD 配置、质量保证和发布流程。"
+interface:
+  display_name: "Vibe Project Standard"
+  short_description: "Vibe coding 项目规范化：从初始化到发布的完整流程"
+  default_prompt: "初始化一个新的生产级项目。使用 vibe-project-standard 技能，创建标准目录结构、配置 SDD/TDD 开发流程、设置 CI/CD、配置质量检查（lint、type check、coverage）。"
