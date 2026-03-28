@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "yimwu-skills"
+version = "0.1.0"
+requires-python = ">=3.8"
+
+[project.scripts]
+yimwu-skills = "yimwu_skills.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["yimwu_skills*"]
+
+[tool.setuptools.package-data]
+yimwu_skills = ["skills/**/*"]
